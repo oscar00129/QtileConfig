@@ -1,0 +1,22 @@
+Uninstall
+sudo pacman -Rns package
+sudo yay -Rns package
+
+Search package
+yay -Qs package
+
+Up wifi interface
+ip link
+ip link set wlan0 up
+
+Connect to Wi-Fi
+iwctl
+device list
+station wlan0 get-networks
+station wlan0 connect <SSID>
+
+Create SSH RSA Key
+ssh-keygen -t rsa -b 4096 -C "oscar00129@gmail.com"
+cat ~/.ssh/id_rsa.pub
+
+
