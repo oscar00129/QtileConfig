@@ -304,11 +304,11 @@ autostart = [
     #"nitrogen --restore &"
     #"nitrogen --set-centered --random ~/Pictures/wallpapers/ &",
     "xrandr --output eDP-1 --brightness .5",
-    "nm-applet &",
+    #"nm-applet &",
     #"feh --bg-fill /home/oscar/Downloads/maxresdefault.jpg",
-    "picom &",
-    # "steam -silent &",
-    "flatpak run com.valvesoftware.Steam -silent &",
+    #"picom &",
+    "steam -silent &",
+    #"flatpak run com.valvesoftware.Steam -silent &",
     "flatpak run com.discordapp.Discord --start-minimized &"
 ]
 
